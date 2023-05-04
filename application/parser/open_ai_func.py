@@ -44,7 +44,7 @@ def call_openai_api(docs, folder_name, task_status):
     # hf = HuggingFaceEmbeddings(model_name=model_name)
     # store = FAISS.from_documents(docs_test, hf)
     s1 = len(docs)
-    for i in tqdm(docs, desc="Embedding 🦖", unit="docs", total=len(docs), bar_format='{l_bar}{bar}| Time Left: {remaining}'):
+    for i in tqdm(docs, desc="Embedding Kyriba DocsGPT", unit="docs", total=len(docs), bar_format='{l_bar}{bar}| Time Left: {remaining}'):
         try:
             task_status.update_state(state='PROGRESS', meta={'current': int((c1 / s1) * 100)})
             store_add_texts_with_retry(store, i)

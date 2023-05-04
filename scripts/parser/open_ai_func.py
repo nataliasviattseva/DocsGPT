@@ -51,7 +51,7 @@ def call_openai_api(docs, folder_name):
     # model_name = "sentence-transformers/all-mpnet-base-v2"
     # hf = HuggingFaceEmbeddings(model_name=model_name)
     # store = FAISS.from_documents(docs_test, hf)
-    for i in tqdm(docs, desc="Embedding 🦖", unit="docs", total=len(docs), bar_format='{l_bar}{bar}| Time Left: {remaining}'):
+    for i in tqdm(docs, desc="Embedding DocsGPT", unit="docs", total=len(docs), bar_format='{l_bar}{bar}| Time Left: {remaining}'):
         try:
             store_add_texts_with_retry(store, i)
         except Exception as e:

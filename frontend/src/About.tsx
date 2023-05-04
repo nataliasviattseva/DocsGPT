@@ -7,7 +7,7 @@ export default function About() {
       <article className=" place-items-left mx-auto my-auto flex w-full max-w-6xl flex-col gap-6 rounded-lg bg-gray-100 p-6 pt-14 pb-14 text-jet lg:p-10 xl:p-16">
         <div className="flex items-center">
           <p className="mr-2 text-3xl">About DocsGPT</p>
-          <p className="text-[21px]">🦖</p>
+          <p className="text-[21px]">Kyriba</p>
         </div>
         <p className="mt-4">
           Find the information in your documentation through AI-powered

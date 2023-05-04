@@ -1,5 +1,5 @@
 <h1 align="center">
-  DocsGPT  🦖
+  DocsGPT
 </h1>
 
 <p align="center">

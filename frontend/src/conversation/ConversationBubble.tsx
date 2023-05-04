@@ -43,7 +43,7 @@ const ConversationBubble = forwardRef<
         onMouseEnter={() => setShowFeedback(true)}
         onMouseLeave={() => setShowFeedback(false)}
       >
-        <Avatar className="mt-4 text-2xl" avatar="🦖"></Avatar>
+        <Avatar className="mt-4 text-2xl" avatar="Kyriba"></Avatar>
         <div
           className={`ml-2 mr-5 flex items-center rounded-3xl bg-gray-1000 p-3.5 ${
             type === 'ERROR'
